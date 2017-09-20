@@ -18,22 +18,12 @@ h1{
   font-size:2.5rem;
 }
 
-h2{
-  fontsize:1.5rem;
-}
-
 body{
   background-color:#06A3FF;
 }
 
 li{
   text-decoration:none;
-}
-
-#container{
-  width:95%;
-  background-color:#ffffff;
-  margin:0 auto;
 }
 
 #nav li{
@@ -81,4 +71,6 @@ img{
 
 
 
-ul
+ul{
+  list-style-type:none;
+}
