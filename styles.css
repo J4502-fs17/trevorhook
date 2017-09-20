@@ -1,6 +1,7 @@
 p{
   color:#000A40;
-  font-family: 'PT Serif', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'PT Serif', serif;
   font-size:1rem;
   line-height:1.5rem
 }
@@ -27,6 +28,7 @@ body{
 
 li{
   text-decoration:none;
+
 }
 
 #nav li{
@@ -71,8 +73,13 @@ img{
   border-style:none;
 }
 
-
-
+#footer{
+  color:black;
+  font-family:"Merriweather", Georgia, "Times New Roman", serif;
+  font-size:0.8em;
+  border-top:1px solid black;
+  border-color:black;
+}
 
 ul{
   list-style-type:none;
