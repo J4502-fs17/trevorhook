@@ -26,6 +26,10 @@ body{
   background-color:#ebe3c3;
 }
 
+li{
+  text-decoration:none;
+}
+
 #container{
   width:95%;
   background-color:#ffffff;
