@@ -28,7 +28,10 @@ body{
 
 li{
   text-decoration:none;
+}
 
+body{
+  text-align:center;
 }
 
 #nav ul{
