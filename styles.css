@@ -42,12 +42,11 @@ body{
   width:25%;
   list-style-type:none;
   text-align:left;
-  color:red;
 }
 
 #nav a:link, a:visited{
   display:block;
-  color:#ffffff;
+  color:#red;
   background-color:#1b35c6;
   font-weight:bold;
   text-align:center;
