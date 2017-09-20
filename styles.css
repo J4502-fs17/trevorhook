@@ -31,12 +31,14 @@ li{
 
 }
 
-#nav li{
+#nav ul{
   list-style-type:none;
   float:left;
   margins:0;
   padding:0;
   width:25%;
+  list-style-type:none;
+  text-align:left;
 }
 
 #nav a:link, a:visited{
@@ -47,7 +49,7 @@ li{
   text-align:center;
   text-decoration:none;
   padding:4px;
-  font-family:Helvetica, Arial, sans-serif;
+  font-family:"Roboto", Helvetica, Arial, sans-serif;
 
 }
 
@@ -79,9 +81,4 @@ img{
   font-size:0.8em;
   border-top:1px solid black;
   border-color:black;
-}
-
-ul{
-  list-style-type:none;
-  text-align:left;
 }
