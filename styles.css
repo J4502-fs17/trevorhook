@@ -1,6 +1,7 @@
 p{
   color:#666666;
-  font-family:'Merriweather', Georgia, "Times New Roman" serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size:1rem;
   line-height:1.5rem
 }
@@ -10,7 +11,7 @@ p{
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family:"Merriweather Sans", Helvetica, Arial, sans-serif;
+  font-family:"Roboto", Helvetica, Arial, sans-serif;
 }
 
 h1{
