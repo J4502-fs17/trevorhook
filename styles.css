@@ -37,7 +37,7 @@ body{
 .nav {
   margin:0;
   padding:0;
-  width:50%;
+  width:80%;
   list-style-type:none;
   text-align:center;
 }
@@ -49,7 +49,7 @@ body{
   font-weight:bold;
   text-align:center;
   text-decoration:none;
-  padding:4px;
+  padding:10px;
   font-family:"Roboto", Helvetica, Arial, sans-serif;
 }
 
@@ -81,7 +81,7 @@ ul{
 }
 
 .nav {
-	padding: 10px;
+	padding: 20px;
 	background: #fff;
   	border-radius: 5px;
 	margin: 45px auto;
@@ -95,34 +95,20 @@ ul{
 }
 
 @media (min-width: 700px) {
-	.nav {
-		flex-direction: row;
-		justify-content: center;
-	}
+
 .image{
   display:block;
   float:left;
-}
 }
 
 .title {
     display: flex;
     justify-content: space-between;
 }
-
-.nav {
-    display: flex;
-    flex-flow: column;
-}
-}
-
-@media screen and (min-width: 700px) {
    .nav {
         flex-flow: row;
         justify-content: space-between;
     }
-}
-@media screen and (min-width: 700px) {
 
     #container {
         width: 80%;
@@ -135,37 +121,43 @@ ul{
           max-width: 200px;
           float: left;
         }
-}
-@media screen and (min-width:800px) {
-    article {
-      display: grid;
-      grid-template-columns: 200px 1fr 1fr;
-      grid-gap: 20px;
-      grid-template-areas:
-      "a b b"
-      "c c c"
-      "d d d";
 
-          }
+        article {
+          display: grid;
+          grid-template-columns: 200px 1fr 1fr;
+          grid-gap: 20px;
+          grid-template-areas:
+          "a b b"
+          "c c c"
+          "d d d";}
+    .image {
+      width: 100%;
+      grid-area: a;
+      }
 
+    .section1 {
+      grid-area: b;
+      }
+
+      .section2 {
+      grid-area: c;
         }
-.image {
-  width: 100%;
-  grid-area: a;
-  }
 
-.section1 {
-  grid-area: b;
-  }
+      .section3 {
+        grid-area: d;
+        }
 
-  .section2 {
-  grid-area: c;
-    }
+}
+@media screen and (min-width:1000px) {
 
-  .section3 {
-    grid-area: d;
-    }
-
+  article {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+    "b b a"
+    "c c c"
+    "d d d";}
 
 
 }
