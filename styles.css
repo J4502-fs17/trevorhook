@@ -42,7 +42,7 @@ body{
   text-align:center;
 }
 
-.nav a:link, a:visited{
+.item a:link, a:visited{
   display:block;
   color:#ffffff;
   background-color:#1b35c6;
@@ -94,7 +94,37 @@ ul{
 	flex-direction: column;
 }
 
+.item{
+  display:none;
+}
+
+.menu-trigger{
+  color:#ffffff;
+  background-color:#1b35c6;
+  font-weight:bold;
+  text-align:center;
+  text-decoration:none;
+  padding:10px;
+  font-family:"Roboto", Helvetica, Arial, sans-serif;
+}
+
 @media (min-width: 700px) {
+  .item{
+    display:block;
+  }
+
+  .menu-trigger {
+    display:none;
+  }
+
+/*.nav{
+  order:2;
+}
+
+  header h1{
+    order:1;
+  }*/
+
 
 .image{
   display:block;
@@ -159,5 +189,13 @@ ul{
     "c c c"
     "d d d";}
 
+
+}
+
+/*.menu-trigger{
+  order:1;
+}*/
+
+.nav{
 
 }
