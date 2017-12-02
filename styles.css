@@ -188,14 +188,19 @@ ul{
     "b b a"
     "c c c"
     "d d d";}
-
-
 }
 
-/*.menu-trigger{
-  order:1;
-}*/
+.map-wrapper {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
 
-.nav{
-
+.map-wrapper iframe{
+    left:0;
+    top:0;
+    height:75%;
+    width:75%;
+    position:absolute;
 }
